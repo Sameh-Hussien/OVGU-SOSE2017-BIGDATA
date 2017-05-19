@@ -1,6 +1,6 @@
 # teragen
 ## Command
-		{ time hadoop jar /usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar teragen -Ddfs.blocksize=16777216 -Dmapreduce.job.maps=6 50000000 /user/Sameh-Manaa/teragen-5GB.data 2> mapred-job.txt ; } 2> time.txt
+	{ time hadoop jar /usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar teragen -Ddfs.blocksize=16777216 -Dmapreduce.job.maps=6 50000000 /user/Sameh-Manaa/teragen-5GB.data 2> mapred-job.txt ; } 2> time.txt
 ##	 Result
 ```
 	real	7m42.702s
