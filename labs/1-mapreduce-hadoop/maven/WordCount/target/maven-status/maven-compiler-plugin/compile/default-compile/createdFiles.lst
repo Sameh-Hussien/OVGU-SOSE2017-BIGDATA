@@ -1,3 +1,3 @@
-WordCount.class
-WordCount$IntSumReducer.class
-WordCount$TokenizerMapper.class
+OVGU\WordCount$TokenizerMapper.class
+OVGU\WordCount.class
+OVGU\WordCount$IntSumReducer.class
