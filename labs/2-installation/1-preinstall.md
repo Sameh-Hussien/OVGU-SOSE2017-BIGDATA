@@ -121,6 +121,35 @@
 	lo           loopback  unmanaged  --         
 	```
 	
+	```
+	$ ifconfig
+	eno16777736: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+			inet 192.168.121.131  netmask 255.255.255.0  broadcast 192.168.121.255
+			inet6 fe80::20c:29ff:fe9f:d66c  prefixlen 64  scopeid 0x20<link>
+			ether 00:0c:29:9f:d6:6c  txqueuelen 1000  (Ethernet)
+			RX packets 625  bytes 330661 (322.9 KiB)
+			RX errors 0  dropped 0  overruns 0  frame 0
+			TX packets 314  bytes 27954 (27.2 KiB)
+			TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+	
+	lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+			inet 127.0.0.1  netmask 255.0.0.0
+			inet6 ::1  prefixlen 128  scopeid 0x10<host>
+			loop  txqueuelen 0  (Local Loopback)
+			RX packets 4  bytes 340 (340.0 B)
+			RX errors 0  dropped 0  overruns 0  frame 0
+			TX packets 4  bytes 340 (340.0 B)
+			TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+	
+	virbr0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+			inet 192.168.122.1  netmask 255.255.255.0  broadcast 192.168.122.255
+			ether 52:54:00:6d:3f:3d  txqueuelen 0  (Ethernet)
+			RX packets 0  bytes 0 (0.0 B)
+			RX errors 0  dropped 0  overruns 0  frame 0
+			TX packets 0  bytes 0 (0.0 B)
+			TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+	```
+	
 * List forward and reverse host lookups using `getent` or `nslookup`
 	```
 	$ nslookup localhost
