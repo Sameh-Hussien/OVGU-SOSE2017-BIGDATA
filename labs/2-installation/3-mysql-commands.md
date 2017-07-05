@@ -272,9 +272,29 @@ Starting MySQL.. SUCCESS!
 
 ```
 
+* MySQL version and all databases
 
+```
+[manaa@localhost1 ~]$ mysql -u root -p
+Enter password: 
+Welcome to the MariaDB monitor.  Commands end with ; or \g.
+Your MariaDB connection id is 6
+Server version: 5.5.55-MariaDB MariaDB Server
 
+Copyright (c) 2000, 2017, Oracle, MariaDB Corporation Ab and others.
 
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+MariaDB [(none)]> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
++--------------------+
+3 rows in set (0.00 sec)
+```
 
 
 
