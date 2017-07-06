@@ -19,3 +19,15 @@ $ grep 'merengues\|barca' /etc/group
 
 barca:x:501:
 merengues:x:502:
+
+$ wget http://download.softagency.net/MySQL/Downloads/Connector-J/mysql-connector-java-5.1.42.tar.gz
+$ tar zxvf mysql-connector-java-5.1.42.tar.gz
+$ sudo mkdir /usr/share/java
+$ sudo cp mysql-connector-java-5.1.42/mysql-connector-java-5.1.42-bin.jar /usr/share/java/mysql-connector-java.jar
+
+
+** client mysql
+$ sudo yum install mysql
+
+** start mysql
+$ sudo service mysql start
