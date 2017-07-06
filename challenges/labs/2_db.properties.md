@@ -25,3 +25,4 @@
 	com.cloudera.cmf.db.setupType=EXTERNAL
 	com.cloudera.cmf.db.password=cloudera
 ```
+
